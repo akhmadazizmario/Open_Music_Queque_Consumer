@@ -4,6 +4,7 @@ const PlaylistSongsService = require("./services/PlaylistSongsService");
 const MailSender = require("./MailSender");
 const Listener = require("./Listener");
 
+// init
 const initConsumer = async () => {
   const playlistSongsService = new PlaylistSongsService();
   const mailSender = new MailSender();
