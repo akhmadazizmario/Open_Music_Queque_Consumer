@@ -4,7 +4,7 @@ class Listener {
   constructor(playlistsService, mailSender) {
     this._playlistSongService = playlistsService;
     this._mailSender = mailSender;
-    // Auto Bind
+    // Auto-Bind
     autoBind(this);
   }
 
